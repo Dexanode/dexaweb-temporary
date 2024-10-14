@@ -1043,11 +1043,7 @@ select.portfolio-filter-mobile {
 /*                      DARK MODE                              
 /*=================================================================*/
 body.dark {
-  background-image: url('/images/slice9.png'); /* Your image URL */
-  background-size: cover; 
-  background-position: center; 
-  background-repeat: no-repeat; 
-  overflow: hidden; 
+  background-image: url('/images/slice9.png');
   color: #888;
 }
 body.dark header, body.dark .btn-default:before, body.dark #preloader {
