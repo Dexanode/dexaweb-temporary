@@ -511,34 +511,35 @@ section {
 }
 
 section.home {
-  position: relative; /* Set position relative to position the overlay */
+  position: relative; /* Allows positioning of the overlay */
   border-top: 0;
   padding: 0;
   height: 100vh;
   min-height: 100vh;
-  background-image: url('/images/0.png'); /* Your image URL */
-  background-size: cover; /* Adjust the size of the image */
-  background-position: center; /* Positions the image to the right and centered vertically */
+  background-image: url('/images/08.jpg'); /* Your image URL */
+  background-size: cover; /* Ensures the image covers the entire section */
+  background-position: center; /* Centers the image */
   background-repeat: no-repeat; /* Prevents the image from repeating */
-  overflow: hidden; /* Ensures the overlay does not exceed the section */
+  overflow: hidden; /* Ensures the overlay doesn't exceed the section */
 }
 
 section.home::before {
-  content: ''; /* Empty content for the pseudo-element */
-  position: absolute; /* Position it absolutely */
+  content: ''; /* Creates an empty pseudo-element */
+  position: absolute; /* Position it absolutely within the section */
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay (50% opacity) */
-  z-index: 1; /* Ensure it’s above the background but below content */
+  z-index: 1; /* Place it above the background image */
 }
 
 .cta {
-  position: relative; /* Positioning for the content */
-  z-index: 2; /* Ensures content is above the overlay */
-  color: white; /* Text color for readability */
+  position: relative; /* Allows text to be above the overlay */
+  z-index: 2; /* Ensure text is above the overlay */
+  color: white; /* Change text color for better visibility */
 }
+
 
 
 section.home .cta {
