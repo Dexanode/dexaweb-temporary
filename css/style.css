@@ -516,9 +516,9 @@ section.home {
   padding: 0;
   height: 100vh;
   min-height: 100vh;
-  background-image: url('/images/08.jpg'); /* Your image URL */
-  background-size: 30%; /* Adjust the size of the image */
-  background-position: right center; /* Positions the image to the right and centered vertically */
+  background-image: url('/images/0.png'); /* Your image URL */
+  background-size: cover; /* Adjust the size of the image */
+  background-position: center; /* Positions the image to the right and centered vertically */
   background-repeat: no-repeat; /* Prevents the image from repeating */
   overflow: hidden; /* Ensures the overlay does not exceed the section */
 }
