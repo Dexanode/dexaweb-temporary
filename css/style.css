@@ -516,10 +516,11 @@ section.home {
   height: 100vh;
   min-height: 100vh;
   background-image: url('/images/background1.png'); /* Add your image URL here */
-  background-size: cover; /* Ensures the image covers the entire section */
-  background-position: center; /* Centers the image */
-  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-size: 30%; /* Adjust the size of the image */
+    background-position: right center; /* Positions the image to the right and centered vertically */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
 }
+
 
 section.home .cta {
   margin: auto;
