@@ -796,11 +796,11 @@ select.portfolio-filter-mobile {
 }
 .price-item.best {
   color: #FFF;
-  background: #9013FE;
+  background: #52B1C3;
 }
 .price-item.best .plan {
   background: #FFF;
-  color: #9013FE;
+  color: #52B1C3;
 }
 .price-item.best .price {
   color: #FFF;
@@ -830,7 +830,7 @@ select.portfolio-filter-mobile {
 .testimonial-item span.symbol {
   font-size: 100px;
   font-family: "Montserrat", sans-serif;
-  color: #9013FE;
+  color: #52B1C3;
   line-height: 1;
 }
 
@@ -855,7 +855,7 @@ select.portfolio-filter-mobile {
   transform: scale(1.1);
 }
 .blog-item .category {
-  background: #9013FE;
+  background: #52B1C3;
   color: #FFF;
   font-size: 11px;
   text-transform: uppercase;
@@ -875,7 +875,7 @@ select.portfolio-filter-mobile {
 }
 .blog-item .meta li:after {
   content: '';
-  background: #9013FE;
+  background: #52B1C3;
   display: inline-block;
   height: 5px;
   margin-left: 1rem;
@@ -950,7 +950,7 @@ select.portfolio-filter-mobile {
 .icon.square {
   color: #FFF;
   font-size: 30px;
-  background: #9013FE;
+  background: #52B1C3;
   display: block;
   height: 60px;
   line-height: 60px;
@@ -958,7 +958,7 @@ select.portfolio-filter-mobile {
   width: 60px;
 }
 .icon.simple {
-  color: #9013FE;
+  color: #52B1C3;
   font-size: 36px;
 }
 
@@ -1056,7 +1056,7 @@ body.dark h1, body.dark h2, body.dark h3, body.dark h4, body.dark h5, body.dark 
   color: #FFF;
 }
 body.dark a:hover {
-  color: #9013FE;
+  color: #52B1C3;
 }
 body.dark .mouse {
   border-color: #FFF;
@@ -1068,7 +1068,7 @@ body.dark .timeline span.line {
   background: #222;
 }
 body.dark .slick-dots li.slick-active button:before {
-  background: #9013FE;
+  background: #52B1C3;
 }
 body.dark .slick-dots li button:before {
   background: rgba(255, 255, 255, 0.8);
@@ -1083,7 +1083,7 @@ body.dark #return-to-top {
   background: rgba(255, 255, 255, 0.2);
 }
 body.dark #return-to-top:hover {
-  background: #9013FE;
+  background: #52B1C3;
 }
 
 /*=================================================================*/
@@ -1253,7 +1253,7 @@ body.dark #return-to-top:hover {
   line-height: 5px;
   color: #fff;
   text-align: center;
-  background-color: #9013FE;
+  background-color: #52B1C3;
   -webkit-box-shadow: none;
   box-shadow: none;
   -webkit-transition: width .6s ease;
