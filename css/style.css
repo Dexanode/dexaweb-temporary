@@ -517,10 +517,10 @@ section.home {
   height: 100vh;
   min-height: 100vh;
   background-image: url('/images/slice9.png'); /* Your image URL */
-  background-size: cover; /* Ensures the image covers the entire section */
-  background-position: center; /* Centers the image */
-  background-repeat: no-repeat; /* Prevents the image from repeating */
-  overflow: hidden; /* Ensures the overlay doesn't exceed the section */
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  overflow: hidden; 
 }
 
 section.home::before {
@@ -1043,7 +1043,11 @@ select.portfolio-filter-mobile {
 /*                      DARK MODE                              
 /*=================================================================*/
 body.dark {
-  background: #000;
+  background-image: url('/images/slice9.png'); /* Your image URL */
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  overflow: hidden; 
   color: #888;
 }
 body.dark header, body.dark .btn-default:before, body.dark #preloader {
