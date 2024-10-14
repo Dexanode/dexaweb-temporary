@@ -516,7 +516,7 @@ section.home {
   padding: 0;
   height: 100vh;
   min-height: 100vh;
-  background-image: url('/images/08a.png'); /* Your image URL */
+  background-image: url('/images/slice9.png'); /* Your image URL */
   background-size: cover; /* Ensures the image covers the entire section */
   background-position: center; /* Centers the image */
   background-repeat: no-repeat; /* Prevents the image from repeating */
