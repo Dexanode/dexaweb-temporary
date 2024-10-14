@@ -102,7 +102,7 @@ a {
   transition: all 0.3s ease-in-out;
 }
 a:hover {
-  color: #9013FE;
+  color: #52B1C3;
   text-decoration: none;
 }
 a:focus {
@@ -145,7 +145,7 @@ ul.styled {
 }
 ul.styled li:before {
   content: '';
-  background: #9013FE;
+  background: #52B1C3;
   display: inline-block;
   height: 5px;
   margin-right: 20px;
